@@ -1,3 +1,7 @@
 <h1>Songs#show</h1>
 
-Title: <%= @song.title %>
+Title: <%= @song.title %><br>
+Artist:  <%= @song.artist.name %><br>
+Genre: <%= @song.genre %><br>
+
+<%= link_to "Home", songs_path %>
